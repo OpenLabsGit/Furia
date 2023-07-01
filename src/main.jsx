@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { Router } from 'react-router-dom'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App.jsx";
+import "./index.css";
 
 ReactDOM.render(
-  <Router>
-    <React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter>
       <App />
-    </React.StrictMode>
-  </Router>,
-  document.getElementById('root')
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
